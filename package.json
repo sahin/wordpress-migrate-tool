@@ -1,0 +1,42 @@
+{
+  "name": "wordpress-migrate-tool",
+  "version": "1.0.0",
+  "description": "Wordpress migrate tool, without pain. 🦄",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "wpm": "./index.js",
+    "wordpress-migrate-tool": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cagataycali/wordpress-migrate-tool.git"
+  },
+  "keywords": [
+    "wordpress",
+    "migrate",
+    "cli",
+    "tool",
+    "migration"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cagataycali/wordpress-migrate-tool/issues"
+  },
+  "homepage": "https://github.com/cagataycali/wordpress-migrate-tool#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "clear": "^0.0.1",
+    "commander": "^2.9.0",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.0.6",
+    "path-exists": "^3.0.0",
+    "simple-ssh": "^0.9.0"
+  }
+}

@@ -1,0 +1,21 @@
+{
+	"host": "95.85.63.80",
+	"user": "root",
+	"local": "/var/www/html/wordpress/",
+	"remote": "/var/www/html/wordpress/",
+	"mysql": {
+		"local": {
+			"host": "localhost",
+			"username": "admin",
+			"password": "8cf2cfa121c988b2af3de68a540cc5e6aeb853ae5e8676e5",
+			"database": "wordpress"
+		},
+		"remote": {
+			"host": "localhost",
+			"username": "admin",
+			"password": "cab7ba650dcb922f87c9eb2408d3d0c75e9a36472b9590b4",
+			"database": "wordpress"
+		}
+	},
+	"key": "/.ssh/id_rsa"
+}
