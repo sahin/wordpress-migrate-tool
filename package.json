@@ -1,6 +1,6 @@
 {
   "name": "wordpress-migrate-tool",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Wordpress migrate tool, without pain. 🦄",
   "main": "index.js",
   "directories": {
