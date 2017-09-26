@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cagataycali/wordpress-migrate-tool.git"
+    "url": "git+https://github.com/svtek/wordpress-migrate-tool.git"
   },
   "keywords": [
     "wordpress",
@@ -27,16 +27,39 @@
   "author": "Çağatay Çalı",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cagataycali/wordpress-migrate-tool/issues"
+    "url": "https://github.com/svtek/wordpress-migrate-tool/issues"
   },
-  "homepage": "https://github.com/cagataycali/wordpress-migrate-tool#readme",
+  "homepage": "https://github.com/svtek/wordpress-migrate-tool#readme",
   "dependencies": {
-    "chalk": "^1.1.3",
+    "babel-polyfill": "^6.23.0",
+    "chalk": "^2.0.1",
     "clear": "^0.0.1",
-    "commander": "^2.9.0",
+    "commander": "^2.11.0",
     "figlet": "^1.2.0",
-    "inquirer": "^3.0.6",
+    "inquirer": "^3.2.0",
+    "knex": "^0.13.0",
+    "lodash": "^4.17.4",
+    "mysql": "^2.14.1",
+    "mysql2": "^1.4.1",
+    "mz": "^2.6.0",
+    "node-ssh": "^4.2.3",
     "path-exists": "^3.0.0",
+    "php-parser": "^2.0.6",
+    "php-unparser": "^0.2.0",
+    "php-writer": "^1.1.0",
     "simple-ssh": "^0.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "eslint": "3",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "flow-bin": "^0.50.0",
+    "jest": "^20.0.4",
+    "prettier-eslint-cli": "^4.1.1"
   }
 }
