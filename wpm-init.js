@@ -57,10 +57,7 @@ exists(`${process.cwd()}/Migrate.json`).then(exists => {
       type: 'input',
       name: 'password',
       message: 'What is your remote ssh password?',
-      validate: function (value) {
-        var valid = value.trim().length > 0;
-        return valid || 'Please enter a username';
-      }
+      default: ''
     },
     {
       type: 'confirm',
@@ -132,7 +129,7 @@ exists(`${process.cwd()}/Migrate.json`).then(exists => {
       type: 'input',
       name: 'mysql_remote_host',
       message: 'What is your remote mysql host?',
-      default: 'remotehost',
+      default: 'localhost',
       validate: function (value) {
         var valid = value.trim().length > 0;
         return valid || 'Please enter your remote mysql host';
